@@ -1,0 +1,140 @@
+/* Base */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+li{
+  list-style-type: none;
+}
+.clear{
+  clear: both;
+  margin: 0px;
+}
+body{
+  text-align: center;
+  font-family: verdana;
+}
+a{
+  color: #0000FF;
+}
+/* Layout */
+
+.l-container{
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+}
+#l-top{
+  padding: 25px 0px;
+}
+.l-header{
+  height: 70px;
+  width: 100%;
+}
+#l-archive{}
+.l-footer{
+  height: 70px;
+  margin-top: 70px;
+  padding-bottom: 25px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 700;
+}
+#l-hero{
+	width: 100%;
+	background-color: black;
+}
+/* Modules */
+
+.teaser{
+  float: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+/* Nav */
+.nav{
+  float: right;
+  padding-top: 23px;
+}
+.nav li{
+  float: right;
+}
+.nav li a {
+  font-size: 14px;
+}
+.nav li + li{
+   padding: 0px 11px 0px 0px;
+}
+.nav li + li:after{
+  content: "|";
+  padding: 0px 0px 0px 11px;
+}
+#logo{
+  padding: 25px 0px;
+}
+/* Archive */
+#l-archive li{
+  height: 206px;
+  width: 206px;
+  background-color: black;
+  float: left;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+}
+#l-archive li img{
+	height: 110%;
+	margin-top: -5%;
+	margin-left: -20%;
+	opacity: .8;
+}
+#l-archive li + li{
+  margin-left: 25px;
+}
+#l-archive li a{
+	text-decoration: none;
+}
+#l-archive li p{
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  padding: 0px 10px;
+  text-shadow: 0px 0px 15px rgba(0,0,0,0.79);
+  top: -147px;
+  line-height: 30px;
+}
+.email{
+  float: left;
+  position: relative;
+  margin-top: -60px;
+}
+.email a{
+  color: black;
+  text-decoration: none;
+}
+.copyright{
+  float: right;
+  position: relative;
+  margin-top: -60px;
+}
+.is-loading{
+  height: 90px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+#embed{
+  width: 100%;
+  height: auto;
+  min-height: 660px;
+  background-color: #101010;
+  background-image: url("../images/timespentloader.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* States */
+.is-fix{
+  position: fixed;
+}
